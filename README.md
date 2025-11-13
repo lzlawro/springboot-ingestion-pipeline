@@ -1,20 +1,22 @@
-📦 Distributed Data Pipeline (WIP)
+# 📦 Distributed Data Pipeline (WIP)
 
-A modular Spring Boot + AWS event-driven data ingestion system
+## A modular Spring Boot + AWS event-driven data ingestion system
 
-This repository contains a work-in-progress distributed data pipeline built using Java 21, Spring Boot 3, AWS SQS/S3, MySQL/PostgreSQL, and Docker.
-The system is designed as a set of small, composable microservices that work together to fetch, process, store, and serve data in a scalable way.
+This repository contains a **work-in-progress distributed data pipeline** built using:
 
-This project is for demonstrating modern backend concepts:
+- **Java 21**
+- **Spring Boot 3**
+- **AWS SQS / AWS S3**
+- **MySQL / PostgreSQL**
+- **Docker**
 
-Event-driven architecture
+The system is designed as a set of small, composable **microservices** that work together to fetch, process, store, and serve data in a scalable way.
 
-Message queues (SQS)
+This project is ideal for learning or demonstrating modern backend concepts:
 
-Containerized microservices
-
-Cloud storage ingestion (S3)
-
-Database loading and REST API exposure
-
-Clean modular service boundaries
+- **Event-driven architecture**
+- **Message queues (AWS SQS)**
+- **Containerized microservices**
+- **Cloud storage ingestion (AWS S3)**
+- **Database loading and REST API exposure**
+- **Clean, modular service boundaries**
