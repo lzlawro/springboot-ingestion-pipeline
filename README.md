@@ -1,3 +1,3 @@
-# Distributed Data Pipeline
+# Springboot Ingestion Pipeline
 
-Starter scaffolding.
+Starter directory.
