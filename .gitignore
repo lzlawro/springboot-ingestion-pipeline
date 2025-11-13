@@ -1,0 +1,115 @@
+##############################
+# Java & Spring Boot
+##############################
+
+# Compiled class files
+**/target/
+**/build/
+**/out/
+
+# Log files
+*.log
+**/logs/
+
+# Spring Boot dev files
+**/*.pid
+**/*.hprof
+
+##############################
+# Gradle
+##############################
+
+# Gradle cache & local build
+.gradle/
+**/.gradle/
+**/build/
+
+# Wrapper logs
+gradle-app.setting
+!gradle-wrapper.jar
+
+##############################
+# Maven (if added later)
+##############################
+
+**/target/
+.mvn/
+.mvn/wrapper/maven-wrapper.jar
+
+##############################
+# IntelliJ IDEA
+##############################
+
+*.iml
+*.ipr
+*.iws
+.idea/
+**/.idea/
+
+##############################
+# VSCode
+##############################
+
+.vscode/
+
+##############################
+# OS / Miscellaneous
+##############################
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# MacOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+##############################
+# Environment Variables
+##############################
+
+# Never commit actual secrets — only templates
+*.env
+*.env.local
+!*\.env.example  # allow example stub files
+
+##############################
+# Docker
+##############################
+
+# Local docker data
+**/docker-data/
+**/.docker/
+
+##############################
+# AWS Credentials (critical!)
+##############################
+
+.aws/
+credentials
+config
+
+##############################
+# Logs & Temp Files
+##############################
+
+*.tmp
+*.swp
+*.swo
+*.cache
+*.bak
+
+##############################
+# Project-specific ignores
+##############################
+
+# Ignore S3 backup dumps if you generate them locally
+s3-backup/
+raw-json-backups/
+
+# Ignore IDE-generated metadata in microservices
+**/src/main/resources/*.orig
